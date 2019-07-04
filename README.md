@@ -32,7 +32,9 @@ After classifying all of the items to newer inventories, the program prints all 
 In the figure given below there is a definitive path from 1 to 32. This program finds this path using an algorithm. The path
 can from one point to N, S, E, W, NE, NW, SE, SW.
 
-https://dl.dropboxusercontent.com/s/tslqi9m9ppp54fu/maze.PNG
+<p align="center"> 
+  <img src="https://dl.dropboxusercontent.com/s/tslqi9m9ppp54fu/maze.PNG">
+</p>
 
 A stack class written to satisfy the needs of the main path finder algorithm. The stack algoritm is very simple, it can pushes, peeks or pops two integer values which represents a coordinate at once.
 Main path finder algorithm firstly searches for the cells that holds the value 1. Path finder algorithm calls “proceedPoint” method for each cell that holds 1 until it returns “true”. After “proceedPoint” method returns true, the main algorithm calls “PrintSolution” method then exits.
