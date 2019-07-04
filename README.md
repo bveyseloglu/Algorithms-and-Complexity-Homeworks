@@ -53,7 +53,7 @@ The program may generate an error if the path moves crosswise.
 ## Hashing
 This programs counts the word of a given paragraph by using hash table and linekd list.
 
-### Specifications:
+### Specifications
 * This hash structure is used to trace a text file. The program will get a path of a text file written in English. The program will trace each word and keep track the positions of them using the hash tables and their related links.
 * After the table is organized, the program ask a user a word and this word is searched through the hash table. If it is found in the text, the program inform user it’s first place in the text.
 
