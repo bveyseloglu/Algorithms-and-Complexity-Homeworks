@@ -55,7 +55,7 @@ This programs counts the word of a given paragraph by using hash table and linek
 * This hash structure is used to trace a text file. The program will get a path of a text file written in English. The program will trace each word and keep track the positions of them using the hash tables and their related links.
 * After the table is organized, the program ask a user a word and this word is searched through the hash table. If it is found in the text, the program inform user it’s first place in the text.
 
-## Algorithms
+### Algorithms
 The LinkedListNode is a class that holds the word’s hash, locations and repetition count. If the word found more than once, the capacity of array that holds the locations of word increases. That makes the algoritm more complex but memory efficient.
 
 The HashTable class organizes every row of the hash table by creating a LinkedListNode array. Every element of the array represents a row of the hash table. The “AddItem” method is clearly explained by comments in the code.
@@ -73,8 +73,12 @@ t: 116 × 4 = 464
 
 and then,
 
+<p align="center">
 84 + 202 + 345 + 464 = 1095.
+  </p>
 
 The FindHash fuction finalizes the hashing by calculating mod of the input number with the size of the table to fit every word into the table. That means, if the size of the table changes, the hash of the word would be change too. To prevent this situation, the size of the table is fixed to 512 for each session. Continuing the example given above, the hast of the “Test” is
 
+<p align="center">
 1095 mod 512 ≡ 71.
+  </p>
