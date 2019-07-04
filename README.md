@@ -64,10 +64,12 @@ The sorting algorithm, which is called Sort, sorts the words by checking the has
 
 Finding hash is the main point of the application. The ConvertInt function converts the input string to a long by summing the value of a char such that, multiplying the ASCII representation of each character of string by the index of that character. For example, the integer representation of the “Test” is
 
+<p align="center">
 T: 84 × 1 = 84
 e: 101 × 2 = 202
 s: 115 × 3 = 345
 t: 116 × 4 = 464
+</p>
 
 and then,
 
