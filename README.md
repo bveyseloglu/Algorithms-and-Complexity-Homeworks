@@ -2,7 +2,7 @@
 Includes 4 homeworks: file reading and sorting, simple database application, maze solver, hashing
 
 ## Development Environment
-The IDE that used in this work is NetBeans IDE 8.2, the version of the Java SE Runtime Environment on the machine that runs IDE is 1.8.0_181-b13. The project was tested on Intel Core i7-7700 machine that running Windows 10 Education (Build 17134) and Intel Core i5-480M laptop that running Windows 7 Service Pack 1 and no problems were found while testing.
+The IDE that used in this work is NetBeans IDE 8.2, the version of the Java SE Runtime Environment on the machine that runs IDE is 1.8.0_181-b13. These projects were tested on Intel Core i7-7700 machine that running Windows 10 Education (Build 17134).
 
 ## File Reading and Sorting
 In this assignment, the application is supposed to open a text file consisting of student IDs, names, ages, and admission year to university. The first line of the file indicates the number of records. Then application reads the content of the file and sort the students according to:
