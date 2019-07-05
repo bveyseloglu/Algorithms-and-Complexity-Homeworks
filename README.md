@@ -84,3 +84,6 @@ The FindHash fuction finalizes the hashing by calculating mod of the input numbe
 <p align="center">
 1095 mod 512 ≡ 71.
   </p>
+  
+## License
+Licensed under MIT License.
