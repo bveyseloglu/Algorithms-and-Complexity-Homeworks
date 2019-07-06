@@ -41,7 +41,7 @@ Main path finder algorithm firstly searches for the cells that holds the value 1
 
 The complexity of the maze finder algorithm is proportional to 𝑇ℎ𝑒𝑡𝑎(𝑛).
 
-An example maze input file is available on the root of the repository.
+> An example maze input file is available on the root of the repository.
 
 ### The "proceedPoint" Method
 “proceedPoint” is a recursive method that has an input arguments that specifies the x and y coordinate of a cell that are supposed to find a proceeding step to it.
