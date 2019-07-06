@@ -17,7 +17,7 @@ Sorting algorithms are based on bubble sort. For each value of the array, let’
 In sorting algorithms of StudentdBase Class doesn’t have any priority feature. If any related property of the students are the same, the algoritm prioritize the student which comes first in the StudentArray.
 
 ## Simple Database Application
-Implementation of a simple database using link list structure where this list will be used in an inventory program of EE Department.
+Implementation of a simple database using link list structure where this list will be used in an inventory program.
 
 The program collects and stores circuit device information by using link lists. There is one primary inventory link list defined at the top of the main metod. It stores all of the data about circuit elements, their properties, and their amounts.
 
@@ -40,6 +40,8 @@ A stack class written to satisfy the needs of the main path finder algorithm. Th
 Main path finder algorithm firstly searches for the cells that holds the value 1. Path finder algorithm calls “proceedPoint” method for each cell that holds 1 until it returns “true”. After “proceedPoint” method returns true, the main algorithm calls “PrintSolution” method then exits.
 
 The complexity of the maze finder algorithm is proportional to 𝑇ℎ𝑒𝑡𝑎(𝑛).
+
+An example maze input file is available on the root of the repository.
 
 ### The "proceedPoint" Method
 “proceedPoint” is a recursive method that has an input arguments that specifies the x and y coordinate of a cell that are supposed to find a proceeding step to it.
