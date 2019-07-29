@@ -50,7 +50,7 @@ This method returns “true” if the correct path is found, “false” if meth
 The algorithm calls itself with a coordinate of its neighborhood cell when that neighborhood cell has a value that one more than its value. If there is no such neighborhood cell available, the algorithm calls itself to roll back to its previous coordinate by marking the current cell as “don’t proceed by that cell”. After finding a cell that holds the ending value that given by the user at the starting phase of the program, the method returns “true” then the path will be printed to the console output.
 
 ### Known Bugs
-The program may generate an error if the path moves crosswise.
+The program may generate an error if path proceeds crosswise.
 
 ## Hashing
 This programs counts the word of a given paragraph by using hash table and linekd list.
